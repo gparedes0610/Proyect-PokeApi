@@ -33,7 +33,7 @@ function Pokemones() {
   }, []);
 
   return (
-    <div className="px-4 pt-24 h-full">
+    <div className="px-4 pt-24 h-auto">
       <div className="flex items-center rounded-md px-4 mx-auto bg-gray-700 text-white w-6/6 p-3.5 my-4 sm:w-6/6 md:w-2/6 lg:w-1/6  ">
         <ion-icon name="search-outline" className="w-full"></ion-icon>
         <input
@@ -62,7 +62,7 @@ function Pokemones() {
                 alt="Sunset in the mountains"
               ></img>
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2 text-slate-100 text-transform: uppercase mb-4">
+                <div className="font-bold text-xl mb-2 text-slate-100 text-transform: uppercase mb-5">
                   {pokemonEncontrado.name}
                 </div>
                 <NavLink

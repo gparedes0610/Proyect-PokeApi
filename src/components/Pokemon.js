@@ -25,7 +25,7 @@ function Pokemon({ pokemon, i }) {
         alt="Sunset in the mountains"
       ></img>
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2 text-slate-100 text-transform: uppercase mb-4">
+        <div className="font-bold text-xl mb-2 text-slate-100 text-transform: uppercase mb-5">
           {poke.name}
         </div>
         <NavLink
